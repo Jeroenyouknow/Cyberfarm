@@ -1,5 +1,6 @@
 <?php
-$naam = $_POST['Medewerker'];   
+$naam = $_POST['Medewerker'];
+$naam2 = '' ;
 
 if ($naam = ""){
     $naam = "Onbekende Naam";
