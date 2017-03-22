@@ -1,0 +1,71 @@
+#div1 {
+    float: left;
+    width: 75%;
+    height: 246px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+#div1 img{
+    height: 245px;
+    width:  245px;
+}
+#div2 {
+    float: left;
+    width: 99%;
+    height: 1080px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background-image: url("achtergrond.png");
+}
+#Stop{
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+#Stop input{
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+}
+#Stop input.submit {
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #0faf00;
+}
+
+#Stop input.submit:hover {background-color: green;
+}
+
+#Stop input.submit:active {
+    background-color: orange;
+    box-shadow: 0 5px green;
+    transform: translateY(4px);
+}
+
+#weer{
+    text-align: center;
+    margin: 5px;
+    width: 22%;
+    display: block;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    float: right;
+}
+
+#weer h1{
+    font-size: 150%;
+}
