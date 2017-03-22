@@ -18,12 +18,29 @@ $author = $_POST['Medewerker'];
 $pin = $_POST['pin'];
 $startdate = $log;
 
-if ($pin > 1111){
-    newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $db);
+
+//Simple security to check if fields are not empty and code is at more then four numbers
+if ($schoolname = ""){
+    header('Refresh: 3; url=index.php');
+    echo 'Oh nee, je hebt geen school naam ingevuld.';
 }
-else {
-    echo "Je hebt geen goede pin code ingevuld";
+else{
+    if ($author = ""){
+        header('Refresh: 3; url=index.php');
+        echo 'Oh nee, je hebt geen naam ingevuld.';
+    }
+    else{
+        if ($pin >= 0000){
+            newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $db);
+        }
+        else {
+            header('Refresh: 3; url=index.php');
+            echo "Je hebt geen goede pin code ingevuld";
+        }
+    }
 }
+
+
 
 ?>
 
@@ -37,6 +54,7 @@ else {
 
 
 <div id = "Stop">
+    <p> <?php  echo $schoolname; echo $author; echo $pin; ?></p>
     <form action = "return.php" method = "post">
         <input type="hidden" name="Medewerker" value=" <?php echo "$author" ?> ">
         <input type ="hidden" name="Log" value =" <?php echo '$log'  ?> ">
