@@ -29,7 +29,7 @@ function newSeed($cyberfarm_id, $seedtype, $customname, $posX, $posY, $db){
     mysqli_query($db, $query);
 }
 
-function newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $db){
+function newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $log, $db){
     //create a new cyberfarm with parameters
     $query = 'INSERT INTO cyberfarm
             (   pin,
@@ -37,6 +37,7 @@ function newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $db){
                 schoolname,
                 author,
                 startdate,
+                log,
                 status) 
             VALUES 
             (   "'. $pin .'", 
@@ -44,6 +45,7 @@ function newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $db){
                 "'. $schoolname .'",
                 "'. $author .'", 
                 "'. $startdate .'", 
+                "'. $log .'",
                 "1"     )';
     mysqli_query($db, $query);
 }

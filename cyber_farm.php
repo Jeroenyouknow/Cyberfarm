@@ -1,45 +1,30 @@
 <?php
-//Include the DB connection (includes the connection to the DB)
-require_once("db_connection.php");
-//Include the parameters for hash
-require_once ('settings.php');
-//Include the parameter for the log
-require_once ('time.php');
-//Include the functions for the Cyberfarm for the DB
-require_once ('functions.php') ;
+require_once("data.php");
 
-//Make an array for an message if the DB connection is gelukt.
-$message = "";
+//Make the log command
+$log = '';
 
-//Get the values filled in the page before
+//Get the data send from index.php
 $schoolname = $_POST['School'];
-$status = 'actief';
-$author = $_POST['Medewerker'];
+$author = $_POST['author'];
 $pin = $_POST['pin'];
-$startdate = $log;
 
-
-//Simple security to check if fields are not empty and code is at more then four numbers
-if ($schoolname = ""){
-    header('Refresh: 3; url=index.php');
-    echo 'Oh nee, je hebt geen school naam ingevuld.';
-}
-else{
-    if ($author = ""){
-        header('Refresh: 3; url=index.php');
-        echo 'Oh nee, je hebt geen naam ingevuld.';
-    }
-    else{
-        if ($pin >= 0000){
-            newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $db);
-        }
-        else {
-            header('Refresh: 3; url=index.php');
-            echo "Je hebt geen goede pin code ingevuld";
-        }
-    }
+//When no name is filled in => put name in DB as not given
+if ($schoolname === ""){
+    $log = $log . "\r\n Er is geen Schoolnaam gegeven door de gebruiker.";
 }
 
+
+
+
+
+//The pin must be higher than the number 1111 if not return to index.php trough error.php
+if ($pin > 1111){
+    newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $log, $db);
+}
+else {
+    ErrorPin();
+}
 
 
 ?>
@@ -52,11 +37,12 @@ else{
 </head>
 <body>
 
+<p> <?php  echo $schoolname; ?></p>
 
 <div id = "Stop">
-    <p> <?php  echo $schoolname; echo $author; echo $pin; ?></p>
     <form action = "return.php" method = "post">
-        <input type="hidden" name="Medewerker" value=" <?php echo "$author" ?> ">
+        <input type="hidden" name="School" value=" <?php echo "$schoolname" ?> ">
+        <input type="hidden" name="author" value=" <?php echo "$author" ?> ">
         <input type ="hidden" name="Log" value =" <?php echo '$log'  ?> ">
         <input type="submit" class = "submit" value="Stop de Cyberfarm">
     </form>
