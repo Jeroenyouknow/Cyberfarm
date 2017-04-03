@@ -1,12 +1,46 @@
-.Gegevens{
-    background-color: white;
-    text-align: center;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    padding: 2%;
-    margin: 10%;
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #ecf0ee;
 }
+
+/* Style the buttons inside the tab */
+div.tab button {
+    width: 25%;
+    font-size: 15px;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #b40b00;
+    color: white;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #17b438;
+    border: 1px solid #b40b00;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background-color: #edf1ef;
+    font-size: 20px;
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #b40b00;
+    border-top: none;
+}
+
 
 input{
     display: block;
@@ -16,36 +50,52 @@ input{
     width: 100%;
 }
 
-p{
-    font-size: 20px;
-}
-
-/*/input.submit {
-    background-color: #004080;
-    color: #FFFFFF;
-    font-size: 25px;
-    border: none;
-}/*/
-
-input.submit {
-    display: inline-block;
-    font-size: 22px;
-    cursor: pointer;
+select{
+    display: block;
     text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: orange;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #0faf00;
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
 }
 
-input.submit:hover {background-color: green;
+
+.button {
+    background-color: #d70b00;
+    border: 2px solid #ffffff;
+    color: #edf1ef;
+    text-align: center;
+    font-size: 28px;
+    padding: 2%;
+    width: 90%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-top: 1%;
 }
 
-input.submit:active {
-    background-color: orange;
-    box-shadow: 0 5px green;
-    transform: translateY(4px);
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -200px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }

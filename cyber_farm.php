@@ -1,10 +1,12 @@
 <?php
 require_once("data.php");
 
-//Make the log command
-$log = '';
+
+
+
 
 //Get the data send from index.php
+$log = '';
 $schoolname = $_POST['School'];
 $author = $_POST['author'];
 $pin = $_POST['pin'];
@@ -20,7 +22,7 @@ if ($schoolname === ""){
 
 //The pin must be higher than the number 1111 if not return to index.php trough error.php
 if ($pin > 1111){
-    newCyberfarm($pin, $hash, $schoolname, $author, $startdate, $log, $db);
+
 }
 else {
     ErrorPin();
@@ -41,9 +43,10 @@ else {
 
 <div id = "Stop">
     <form action = "return.php" method = "post">
+        <input type="hidden" name="log" value=" <?php echo "$log" ?> ">
         <input type="hidden" name="School" value=" <?php echo "$schoolname" ?> ">
         <input type="hidden" name="author" value=" <?php echo "$author" ?> ">
-        <input type ="hidden" name="Log" value =" <?php echo '$log'  ?> ">
+        <input type="hidden" name="pin" value=" <?php echo "$pin" ?> ">
         <input type="submit" class = "submit" value="Stop de Cyberfarm">
     </form>
 </div>

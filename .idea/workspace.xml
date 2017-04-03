@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72849867-814f-4686-ba09-f259388c4b3c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/medewerker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/succes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/succes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/medewerker_panel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/succes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Cyberfarm.iml" afterPath="$PROJECT_DIR$/.idea/Cyberfarm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/Return.css" afterPath="$PROJECT_DIR$/CSS/Return.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/index.css" afterPath="$PROJECT_DIR$/CSS/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/main.js" afterPath="$PROJECT_DIR$/JS/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cyber_farm.php" afterPath="$PROJECT_DIR$/cyber_farm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.php" afterPath="$PROJECT_DIR$/data.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_connection.php" afterPath="$PROJECT_DIR$/db_connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/return.php" afterPath="$PROJECT_DIR$/return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/return_admin.php" afterPath="$PROJECT_DIR$/return_admin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,35 +35,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="return_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/return_admin.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="576">
+              <caret line="87" column="60" lean-forward="false" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="return.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/return.php">
+      <file leaf-file-name="succes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/succes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-              <folding>
-                <marker date="1490611778000" expanded="true" signature="149:173" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="149:1338" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="157:173" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="337:349" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="337:1338" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="359:1329" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="380:458" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="482:974" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="557:962" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="1003:1318" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="1044:1154" ph="..." />
-                <marker date="1490611778000" expanded="true" signature="1202:1302" ph="..." />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="succes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/succes.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="69" column="25" lean-forward="false" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,19 +123,30 @@
         <option value="$PROJECT_DIR$/CSS/cyber_farm.css" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/time.php" />
-        <option value="$PROJECT_DIR$/CSS/Return.css" />
-        <option value="$PROJECT_DIR$/CSS/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/redirect_data.php" />
         <option value="$PROJECT_DIR$/redirect_status.php" />
         <option value="$PROJECT_DIR$/redirect.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/data.php" />
         <option value="$PROJECT_DIR$/error.php" />
         <option value="$PROJECT_DIR$/error_functions.php" />
-        <option value="$PROJECT_DIR$/cyber_farm.php" />
-        <option value="$PROJECT_DIR$/return.php" />
+        <option value="$PROJECT_DIR$/CSS/Return.css" />
         <option value="$PROJECT_DIR$/db_connection.php" />
+        <option value="$PROJECT_DIR$/return_admin.php" />
+        <option value="$PROJECT_DIR$/return.php" />
+        <option value="$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Medewerker.php" />
+        <option value="$PROJECT_DIR$/beveiliging.php" />
+        <option value="$PROJECT_DIR$/Medewerker_Panel/medewerker_panel.php" />
+        <option value="$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Welkom.php" />
+        <option value="$PROJECT_DIR$/medewerker_panel_Welkom.php" />
+        <option value="$PROJECT_DIR$/cyber_farm.php" />
+        <option value="$PROJECT_DIR$/medewerker_panel.php" />
+        <option value="$PROJECT_DIR$/CSS/medewerker.css" />
+        <option value="$PROJECT_DIR$/CSS/index.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/CSS/succes.css" />
+        <option value="$PROJECT_DIR$/JS/succes.js" />
+        <option value="$PROJECT_DIR$/delete.php" />
       </list>
     </option>
   </component>
@@ -143,6 +192,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cyberfarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cyberfarm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cyberfarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cyberfarm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -158,14 +235,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jeroe\OneDrive\Cyberfarm" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Medewerker_Panel" />
       <recent name="C:\Users\jeroe\OneDrive\Cyberfarm\CSS" />
       <recent name="C:\Users\jeroe\OneDrive\Cyberfarm\JS" />
       <recent name="C:\Users\jeroe\OneDrive\Cyberfarm\Game" />
-      <recent name="C:\Users\jeroe\OneDrive\Cyberfarm\Cyberfarm_hash" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jeroe\OneDrive\Cyberfarm" />
     </key>
   </component>
   <component name="RunManager">
@@ -255,12 +333,15 @@
       <workItem from="1490279823076" duration="10638000" />
       <workItem from="1490350094501" duration="18000" />
       <workItem from="1490598105696" duration="858000" />
-      <workItem from="1490609639769" duration="2521000" />
+      <workItem from="1490609639769" duration="10837000" />
+      <workItem from="1490770982577" duration="2045000" />
+      <workItem from="1491144833183" duration="1856000" />
+      <workItem from="1491217490631" duration="3163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64097000" />
+    <option name="totallyTimeSpent" value="79477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -315,129 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#198#242#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <marker date="1490611778000" expanded="true" signature="149:173" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="149:1338" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="157:173" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="337:349" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="337:1338" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="359:1329" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="380:458" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="482:974" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="557:962" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1003:1318" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1044:1154" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1202:1302" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cyber_farm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#198#242#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490611778000" expanded="true" signature="149:173" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="149:1338" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="157:173" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="337:349" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="337:1338" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="359:1329" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="380:458" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="482:974" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="557:962" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1003:1318" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1044:1154" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1202:1302" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/weather.js" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/settings.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/db_connection.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/hash.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/weather.js" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/settings.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/db_connection.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/hash.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/weather.js" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/db_connection.php" />
-    <entry file="file://$PROJECT_DIR$/Game/main.css" />
-    <entry file="file://$PROJECT_DIR$/Game/main.js" />
-    <entry file="file://$PROJECT_DIR$/Game/komkommer.png" />
-    <entry file="file://$PROJECT_DIR$/Game/noot_1.jpg" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/hash.php" />
-    <entry file="file://$PROJECT_DIR$/Game/Cyberfarm_hash/settings.php" />
-    <entry file="file://$PROJECT_DIR$/Game/cyber_farm.php" />
     <entry file="file://$PROJECT_DIR$/Afbeeldingen/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -485,45 +443,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <element signature="e#198#242#0#PHP" expanded="false" />
+            <element signature="e#189#233#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redirect_status.php" />
     <entry file="file://$PROJECT_DIR$/redirect_data.php" />
-    <entry file="file://$PROJECT_DIR$/CSS/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Return.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/redirect.php" />
     <entry file="file://$PROJECT_DIR$/error.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -532,46 +459,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error_functions.php">
+    <entry file="file://$USER_HOME$/Documents/OneDrive/LoginLeerlingen/beveiling.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/return_admin.php">
+    <entry file="file://$USER_HOME$/Documents/OneDrive/InstructeurLogin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$USER_HOME$/Documents/OneDrive/LoginLeerlingen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cyber_farm.php">
+    <entry file="file://$USER_HOME$/Documents/OneDrive/InstructeurLogin/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="46" column="72" lean-forward="true" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+        <state relative-caret-position="720">
+          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#189#233#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,10 +505,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Medewerker.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_School.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Log.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Pin_Code.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Finish.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Verwijder.php" />
+    <entry file="file://$PROJECT_DIR$/beveiliging.php" />
+    <entry file="file://$PROJECT_DIR$/return_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Welkom.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Zaden.php" />
+    <entry file="file://$PROJECT_DIR$/Medewerker_Panel/medewerker_panel_Planten.php" />
+    <entry file="file://$PROJECT_DIR$/medewerker_panel_Log.php" />
+    <entry file="file://$PROJECT_DIR$/medewerker_panel_Finish.php" />
+    <entry file="file://$PROJECT_DIR$/medewerker_panel_Zaden.php" />
+    <entry file="file://$PROJECT_DIR$/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cyber_farm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medewerker_panel_Welkom.php" />
+    <entry file="file://$PROJECT_DIR$/error_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="735">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <marker date="1490281404000" expanded="true" signature="172:768" ph="INSERT INTO seeds... " />
             <marker date="1490281404000" expanded="true" signature="945:1381" ph="INSERT INTO cyberfarm... " />
@@ -602,34 +585,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_connection.php">
+    <entry file="file://$PROJECT_DIR$/succes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medewerker_panel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="196" column="26" lean-forward="false" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Return.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/OneDrive/Clarien/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="101" />
           <folding>
-            <element signature="e#198#242#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/return.php">
+    <entry file="file://$USER_HOME$/Documents/OneDrive/Clarien/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state relative-caret-position="66">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="117" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/medewerker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="87" column="60" lean-forward="false" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
           <folding>
-            <marker date="1490611778000" expanded="true" signature="149:173" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="149:1338" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="157:173" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="337:349" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="337:1338" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="359:1329" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="380:458" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="482:974" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="557:962" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1003:1318" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1044:1154" ph="..." />
-            <marker date="1490611778000" expanded="true" signature="1202:1302" ph="..." />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="69" column="25" lean-forward="false" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/succes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/succes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
