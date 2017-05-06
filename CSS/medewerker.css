@@ -88,6 +88,69 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+.buttons{
+    width: 100%;
+}
+
+#right{
+    float: right;
+    width: 49%;
+}
+
+#right button{
+    background-color: #17b438;
+}
+
+#left button{
+    background-color: #17b438;
+}
+#left{
+    float: left;
+    width: 49%;
+}
+
+
+.button {
+    background-color: #d70b00;
+    border: 2px solid #ffffff;
+    color: #edf1ef;
+    text-align: center;
+    font-size: 28px;
+    padding: 2%;
+    width: 90%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -200px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 footer{
     text-align: center;
 }

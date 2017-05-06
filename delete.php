@@ -1,5 +1,22 @@
 <?php
 header('Refresh: 5; url=index.php');
+include_once ('functions.php');
+
+$ID = $_POST['ID'];
+$weer = $_POST['weer'];
+$hash = $_POST['hash'];
+$log = $_POST['log'];
+$log = $log.'De Cyberfarm is verwijderd';
+$schoolname = $_POST['School'];
+$author = $_POST['author'];
+$pin = $_POST['pin'];
+$zaden = $_POST['zaden'];
+$planten = $_POST['planten'];
+$data = $_POST['start'];
+
+
+newCyberfarm($pin,$hash,$schoolname,$author,$data,$log,$db)
+
 
 ?>
 <html>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Documents/OneDrive/Clarien/.idea/Clarien.iml" filepath="$USER_HOME$/Documents/OneDrive/Clarien/.idea/Clarien.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Cyberfarm.iml" filepath="$PROJECT_DIR$/.idea/Cyberfarm.iml" />
     </modules>
   </component>

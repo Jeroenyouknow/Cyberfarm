@@ -1,17 +1,19 @@
 <?php
 require_once ('data.php');
-date_default_timezone_set("CET");
+
 
 //Send data from index.php or cyberfarm.php
 $log = $_POST['log'];
 $schoolname = $_POST['School'];
 $author = $_POST['author'];
 $pin = $_POST['pin'];
-$Medwewerker = $_POST['GN'];
 $zaden = $_POST['zaden'];
 $planten = $_POST['planten'];
+$data = $_POST['start'];
 
-
+if ($data ===""){
+    $data = "Datum niet bekend";
+}
 
 
 //newCyberfarm($pin, $hash, $school_naam, $author, $startdate, $log, $db);
@@ -30,7 +32,7 @@ $planten = $_POST['planten'];
 <body>
 
 <div id = "info">
-    <h1> Welkom, <?php echo $Medwewerker ?>. De datum en tijd is: <?php echo date ("d-m-Y h:i:sa") ?></h1>
+    <h1> Welkom, <?php echo $author ?>. De datum en tijd is: <?php echo date ("d-m-Y h:i:sa") ?></h1>
 </div>
 
 <div class="tab">
@@ -77,8 +79,9 @@ $planten = $_POST['planten'];
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
         <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Update Gegevens">
+        <button class="button" style="vertical-align:middle"><span>Update gegevens</span></button>
     </form>
 
 </div>
@@ -93,8 +96,10 @@ $planten = $_POST['planten'];
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
         <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Update Gegevens">
+        <button class="button" style="vertical-align:middle"><span>Update gegevens</span></button>
+
     </form>
 
 </div>
@@ -109,8 +114,10 @@ $planten = $_POST['planten'];
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
         <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Update Gegevens">
+        <button class="button" style="vertical-align:middle"><span>Update gegevens</span></button>
+
     </form>
 </div>
 
@@ -124,28 +131,88 @@ $planten = $_POST['planten'];
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
         <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Update Gegevens">
+        <button class="button" style="vertical-align:middle"><span>Update gegevens</span></button>
+
     </form>
 </div>
 
 <div id="Zaden" class="tabcontent">
     <h1>Zaden</h1>
+    <p>Current zaden: <?php echo $zaden ?></p>
+    <div class = buttons>
+    <div id = 'left'>
+    <h2>Groente</h2>
+
+        <button class="button" style="vertical-align:middle"><span>Komkommer</span></button>
+        <button class="button" style="vertical-align:middle"><span>Winterpeen</span></button>
+        <button class="button" style="vertical-align:middle"><span>Rode ui</span></button>
+        <button class="button" style="vertical-align:middle"><span>Spruitjes</span></button>
+        <button class="button" style="vertical-align:middle"><span>Brocolli</span></button>
+        <button class="button" style="vertical-align:middle"><span>Tomaat</span></button>
+        <button class="button" style="vertical-align:middle"><span>Andijvie</span></button>
+        <button class="button" style="vertical-align:middle"><span>Ijsberg sla</span></button>
+        <button class="button" style="vertical-align:middle"><span>Mais</span></button>
+        <button class="button" style="vertical-align:middle"><span>Paprika</span></button>
+        <button class="button" style="vertical-align:middle"><span>Prei</span></button>
+        <button class="button" style="vertical-align:middle"><span>Spinazie</span></button>
+        <button class="button" style="vertical-align:middle"><span>Boerenkool</span></button>
+    </div>
+        <div id = 'right'>
+            <h2>Fruit</h2>
+            <button class="button" style="vertical-align:middle"><span>Aardbei</span></button>
+            <button class="button" style="vertical-align:middle"><span>Druif</span></button>
+            <button class="button" style="vertical-align:middle"><span>Blauwe bes</span></button>
+            <button class="button" style="vertical-align:middle"><span>Kers</span></button>
+        </div>
+
+    </div>
     <form action = "medewerker_panel.php" method = "post">
         <input type="hidden" name="log" value="<?php echo $log ?>">
         <input type="hidden" name="School" value="<?php echo $schoolname ?>">
         <input type="hidden" name="author" value="<?php echo $author ?>">
         <input type="hidden" name="pin" value="<?php echo $pin ?>">
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
-        <input type="text" name="zaden" value="<?php echo $zaden ?>">
+        <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
         <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Update Gegevens">
+        <button class="button" style="vertical-align:middle"><span>Update gegevens</span></button>
+
     </form>
 </div>
 
 <div id="Planten" class="tabcontent">
     <h1>Planten</h1>
+    <p>Current planten: <?php echo $planten ?></p>
+    <div class = buttons>
+        <div id = 'left'>
+            <h2>Groente</h2>
+
+            <button class="button" style="vertical-align:middle"><span>Komkommer</span></button>
+            <button class="button" style="vertical-align:middle"><span>Winterpeen</span></button>
+            <button class="button" style="vertical-align:middle"><span>Rode ui</span></button>
+            <button class="button" style="vertical-align:middle"><span>Spruitjes</span></button>
+            <button class="button" style="vertical-align:middle"><span>Brocolli</span></button>
+            <button class="button" style="vertical-align:middle"><span>Tomaat</span></button>
+            <button class="button" style="vertical-align:middle"><span>Andijvie</span></button>
+            <button class="button" style="vertical-align:middle"><span>Ijsberg sla</span></button>
+            <button class="button" style="vertical-align:middle"><span>Mais</span></button>
+            <button class="button" style="vertical-align:middle"><span>Paprika</span></button>
+            <button class="button" style="vertical-align:middle"><span>Prei</span></button>
+            <button class="button" style="vertical-align:middle"><span>Spinazie</span></button>
+            <button class="button" style="vertical-align:middle"><span>Boerenkool</span></button>
+        </div>
+        <div id = 'right'>
+            <h2>Fruit</h2>
+            <button class="button" style="vertical-align:middle"><span>Aardbei</span></button>
+            <button class="button" style="vertical-align:middle"><span>Druif</span></button>
+            <button class="button" style="vertical-align:middle"><span>Blauwe bes</span></button>
+            <button class="button" style="vertical-align:middle"><span>Kers</span></button>
+        </div>
+
+    </div>
     <form action = "medewerker_panel.php" method = "post">
         <input type="hidden" name="log" value="<?php echo $log ?>">
         <input type="hidden" name="School" value="<?php echo $schoolname ?>">
@@ -154,10 +221,12 @@ $planten = $_POST['planten'];
         <input type="text"   name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
         <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Update Gegevens">
+        <button class="button" style="vertical-align:middle"><span>Update gegevens</span></button>
     </form>
 </div>
+
 
 <div id="Finish" class="tabcontent">
     <h1>Finish</h1>
@@ -165,6 +234,7 @@ $planten = $_POST['planten'];
         ID: <?php echo $ID ?><br>
         Weather: <?php echo $weather ?><br>
         Hash: <?php echo $hash ?><br>
+        Datum: <?php echo $data ?><br>
         Medewerker: <?php echo $author ?><br>
         School: <?php echo $schoolname ?><br>
         Log: <?php echo $log ?><br>
@@ -174,20 +244,19 @@ $planten = $_POST['planten'];
     </p>
 
     <form action = "succes.php" method = "post">
-
-        <input type="hidden" name="author" value="<?php echo $log ?>">
+        <input type="hidden" name="ID" value="<?php echo $ID ?>">
+        <input type="hidden" name="weer" value="<?php echo $weather ?>">
+        <input type="hidden" name="hash" value="<?php echo $hash ?>">
+        <input type="hidden" name="log" value="<?php echo $log ?>">
         <input type="hidden" name="School" value="<?php echo $schoolname ?>">
         <input type="hidden" name="author" value="<?php echo $author ?>">
         <input type="hidden" name="pin" value="<?php echo $pin ?>">
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
-        <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="Sla de Cyberfarm op!">
+        <button class="button" style="vertical-align:middle"><span>Sla de cyberfarm op</span></button>
     </form>
-
-
-
 
 </div>
 
@@ -195,25 +264,27 @@ $planten = $_POST['planten'];
     <h2>Verwijder</h2>
     <p>Je kan deze actie niet ontdoen!</p>
     <form action = "delete.php" method = "post">
-        <input type="hidden" name="author" value="<?php echo $log ?>">
+        <input type="hidden" name="ID" value="<?php echo $ID ?>">
+        <input type="hidden" name="weer" value="<?php echo $weather ?>">
+        <input type="hidden" name="hash" value="<?php echo $hash ?>">
+        <input type="hidden" name="log" value="<?php echo $log ?>">
         <input type="hidden" name="School" value="<?php echo $schoolname ?>">
         <input type="hidden" name="author" value="<?php echo $author ?>">
         <input type="hidden" name="pin" value="<?php echo $pin ?>">
         <input type="hidden" name="planten" value="<?php echo $planten ?>">
         <input type="hidden" name="zaden" value="<?php echo $zaden ?>">
-        <input type="hidden" name="GN" value="<?php echo $Medwewerker ?>">
+        <input type="hidden" name="start" value="<?php echo $data ?>">
         <br> <br>
-        <input type="submit" class = "submit" value="VERWIJDER DE CYBERFARM!">
+        <button class="button" style="vertical-align:middle"><span>Sla de cyberfarm op</span></button>
     </form>
+
 </div>
 
 </body>
 
 <footer>
     <p>
-        CyberFarmMedewerkersPanel (CFMP) is onderdeel van CyberFarm TM.<br>
-        CyberFarm is een onderdeel van GroenteGO©.<br>
-        GroenteGO© 2017, www.groentego.nl.
+        CyberFarmMedewerkersPanel (CFMP) is onderdeel van CyberFarm TM.
     </p>
 </footer>
 

@@ -1,6 +1,6 @@
 <?php
 
-include_once 'db_connection.php';
+include_once 'data.php';
 
 function newSeed($cyberfarm_id, $seedtype, $customname, $posX, $posY, $db){
     //create a new seed with parameters

@@ -1,15 +1,32 @@
+var fase = 0;
 
-
-function allowDrop(ev) {
-    ev.preventDefault();
+function allowDrop(event) {
+    event.preventDefault();
+}
+function drag(event, id) {
+    var img1 = document.getElementById(id);
+    event.dataTransfer.setData("osaicon", img1.id);
+    img1.style.opacity = 0;
+}
+function drop(event) {
+    var data = event.dataTransfer.getData("osaicon");
+    console.log(event.target.nodeName)
+    if ( event.target.nodeName !== "IMG" ) {
+        event.target.appendChild(document.getElementById(data));
+    }
+}
+function show(id) {
+    var img1 = document.getElementById(id);
+    img1.style.opacity = 3;
 }
 
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-}
 
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
+
+
+function changeImage(pic){
+    if(pic=="1")
+        document.getElementById("zaadje1").src="Afbeeldingen/plantje_fase_2.png";
+    else if(pic=="2")
+        document.getElementById("zaadje1").src="Afbeeldingen/plantje_fase_1.png";
+
 }
