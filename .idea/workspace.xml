@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72849867-814f-4686-ba09-f259388c4b3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planten.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Cyberfarm.iml" afterPath="$PROJECT_DIR$/.idea/Cyberfarm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/cyber_farm.css" afterPath="$PROJECT_DIR$/CSS/cyber_farm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/medewerker.css" afterPath="$PROJECT_DIR$/CSS/medewerker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/succes.css" afterPath="$PROJECT_DIR$/CSS/succes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/main.js" afterPath="$PROJECT_DIR$/JS/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cyber_farm.php" afterPath="$PROJECT_DIR$/cyber_farm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.php" afterPath="$PROJECT_DIR$/data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delete.php" afterPath="$PROJECT_DIR$/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/medewerker_panel.php" afterPath="$PROJECT_DIR$/medewerker_panel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/succes.php" afterPath="$PROJECT_DIR$/succes.php" />
-    </list>
+    <list default="true" id="72849867-814f-4686-ba09-f259388c4b3c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,12 +271,12 @@
       <workItem from="1491376972456" duration="9626000" />
       <workItem from="1491395931375" duration="412000" />
       <workItem from="1491643483467" duration="102000" />
-      <workItem from="1494077467557" duration="658000" />
+      <workItem from="1494077467557" duration="851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92189000" />
+    <option name="totallyTimeSpent" value="92382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
